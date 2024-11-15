@@ -14,7 +14,8 @@ Currency_Wifi.ino
   - enter your wifi name under ssid
   - enter your wifi password under password
   - enter your wifi ip address in serverUrl
-  how to check ip address?
+
+how to check ip address?
 On Windows
 Open Command Prompt: Press Win + R, type cmd, and hit Enter.
 Run the Command: Type ipconfig and press Enter.
