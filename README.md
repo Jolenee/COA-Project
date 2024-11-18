@@ -32,16 +32,23 @@ On macOS:
 - Type ifconfig and press Enter.
 - Look for the inet entry under your active network interface (often en0 for Wi-Fi). The address next to inet is your IP.
 
+Weather_Wifi.ino
+- make sure you install these libraries in Arduino.
+  1) TinyScreen
+  2) WiFi101
+  3) ArduinoJson
 
-
-
+  - enter your wifi name under ssid
+  - enter your wifi password under password
+  - enter your api key from openweathermap.org under apiKey
+  - enter your cityName (e.g Singapore)
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
 HOW TO RUN THE WEBSITE:
 - From the terminal, run "python app.py"
 - Go to chrome and type "http://localhost:8080/exchange_rate"
 
-WHEN UPLOADING Currency_Wifi.ino
+WHEN UPLOADING Currency_Wifi.ino/Weather_Wifi.ino
 - ensure you have connected TinyZero, Wifi Board and TinyScreen.
 
 - Laptop and Wifi Board are connected to the same Wifi.
