@@ -1,7 +1,8 @@
 # COA-Project
 PREREQUISITES:
 app.py
-- install bottle if you haven't do so. (pip install bottle) 
+- install bottle if you haven't do so. (pip install bottle)
+- install python requests module. (pip install requests)
 - in the code, replace with your currency API key and base URL, in my case i used it from https://www.exchangerate-api.com/ (API_KEY/BASE_URL)
 - change base_currency and  target_currency to your preferred one!
 
