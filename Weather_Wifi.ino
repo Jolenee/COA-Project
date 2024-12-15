@@ -131,3 +131,4 @@ void fetchWeather() {
     display.print("Failed to connect");
   }
 }
+
